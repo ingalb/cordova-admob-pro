@@ -87,7 +87,8 @@
     <!-- ios -->
     <platform name="ios">
         <!-- GoogleMobileAds.framework in dependency plugin: cordova-admobsdk, > 100MB -->
-        <dependency id="cordova-admobsdk" version="~7.35.0"/>
+        <!--<dependency id="cordova-admobsdk" version="~7.35.0"/>-->
+	<dependency id="cordova-admobsdk" url="https://gitlab.com/floatinghotpot/cordova-admobsdk.git"/>
 
         <config-file target="config.xml" parent="/*">
             <feature name="AdMob">
